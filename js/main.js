@@ -205,7 +205,7 @@
       "o.sab": "Saturday",
       "o.dom": "Sunday",
       "o.chiuso": "closed",
-      "o.p": "About 350 metres from the Frattini stop on the M4.",
+      "o.p": "About 200 metres from the Gelsomini stop on the M4, between Gelsomini and Frattini.",
       "o.neg": "Shop",
       "o.emer": "Emergency locksmith",
       "o.wa": "(WhatsApp too)",
