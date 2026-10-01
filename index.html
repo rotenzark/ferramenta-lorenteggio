@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
 <script>document.documentElement.classList.remove('no-js')</script>
 <title>Ferramenta Lorenteggio — serrature, porte blindate e ferramenta in Via Lorenteggio 155, Milano</title>
 <meta name="description" content="Ferramenta Lorenteggio, multiservizi e vendita in Via Lorenteggio 155 a Milano: serrature e cilindri di sicurezza, defender, porte blindate, tapparelle, zanzariere, serramenti; al banco chiavi, telecomandi e ferramenta. Pronto intervento serrature 338 498 2876.">
@@ -18,9 +19,7 @@
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="img/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Pathway+Extreme:ital,opsz,wdth,wght@1,12..96,75..100,600..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="fonts/fonts.css?v=1">
 <link rel="stylesheet" href="css/styles.css?v=1">
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
@@ -298,7 +297,7 @@
       <a class="btn btn--linea" href="https://www.google.com/maps/search/?api=1&amp;query=Ferramenta+Lorenteggio+Via+Lorenteggio+155+Milano" target="_blank" rel="noopener" data-i18n="o.btn">Indicazioni stradali</a>
     </div>
     <div class="mappa">
-      <iframe src="https://www.google.com/maps?q=Via+Lorenteggio+155,+20146+Milano&amp;z=16&amp;output=embed" title="Mappa: Ferramenta Lorenteggio, Via Lorenteggio 155, Milano" data-i18n-title="o.mappa" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="mappa-clic" data-mappa-clic style="--mappa-h: 320px"><template><iframe src="https://www.google.com/maps?q=Via+Lorenteggio+155,+20146+Milano&amp;z=16&amp;output=embed" title="Mappa: Ferramenta Lorenteggio, Via Lorenteggio 155, Milano" data-i18n-title="o.mappa" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></template><div class="mappa-clic__velo"><a class="mappa-clic__btn" href="https://www.google.com/maps/search/?api=1&amp;query=Ferramenta+Lorenteggio+Via+Lorenteggio+155+Milano" target="_blank" rel="noopener">Mostra la mappa</a><p class="mappa-clic__nota">La mappa è di Google: aprendola, Google riceve il tuo indirizzo IP e può usare i suoi cookie.</p></div></div>
     </div>
   </section>
 
@@ -309,7 +308,7 @@
   <p class="piede__marca" aria-hidden="true"><svg class="casetta" viewBox="0 0 80 80"><path class="casetta__muro" d="M40 12 L66 34 L66 70 L14 70 L14 34 Z"/><path class="casetta__camino" d="M54 22 L54 12 L60 12 L60 27"/><path class="casetta__martello" d="M28 36 H52 M40 36 V64 M28 36 C 30 30, 38 30, 40 36"/></svg><span class="marca__uno">Ferramenta</span> <span class="marca__due">Lorenteggio</span></p>
   <p>Ferramenta Lorenteggio · <span data-i18n="z.cosa">multiservizi e vendita</span> · Via Lorenteggio 155, 20146 Milano · <a href="tel:+390242290755">02&nbsp;4229&nbsp;0755</a> · <span data-i18n="z.emer">pronto intervento serrature</span> <a href="tel:+393384982876">338&nbsp;498&nbsp;2876</a></p>
   <p data-i18n="z.orari">Lunedì 8:30–12:30 · da martedì a venerdì 8:30–12:30 e 15–19 · sabato 8:30–12:30 · domenica chiuso</p>
-  <p class="piede__cred" data-i18n="z.cred">Sito dimostrativo realizzato da <a href="https://bespokestud.io" rel="noopener">Bespoke Studio</a> · testi dalla loro scheda Google, dalla loro pagina su PagineGialle, dal loro profilo Instagram e dalla loro insegna; recensioni pubbliche su Google (settembre 2026); fotografie dal loro Instagram e dalla scheda Google.</p>
+  <p class="piede__cred" data-i18n="z.cred">Sito dimostrativo realizzato da <a href="https://bespokestud.io" rel="noopener">Bespoke Studio</a> · <a href="privacy.html">Privacy</a> · testi dalla loro scheda Google, dalla loro pagina su PagineGialle, dal loro profilo Instagram e dalla loro insegna; recensioni pubbliche su Google (settembre 2026); fotografie dal loro Instagram e dalla scheda Google.</p>
 </footer>
 
 </div>
@@ -326,5 +325,6 @@
   <img id="lightboxImg" src="" alt="">
 </div>
 
+<script src="js/mappa-clic.js?v=1" defer></script>
 </body>
 </html>
